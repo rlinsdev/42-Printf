@@ -33,10 +33,10 @@ char* ft_itoa_base(unsigned long long nbr, char* base)
 {
 	char* result;
 	int		i;
-	int		sezeofbase;
+	int		sizeofbase;
 
 	i = ft_inttobaselen(nbr, base);
-	sezeofbase = ft_strlen(base);
+	sizeofbase = ft_strlen(base);
 	result = malloc((i + 1) * sizeof(char));
 	if (!result)
 		return (NULL);
@@ -48,9 +48,9 @@ char* ft_itoa_base(unsigned long long nbr, char* base)
 		i--;
 		// Number mod base (16) = Char in base wanted
 		// Mod result will be the value to add in result
-		result[i] = base[nbr % sezeofbase];
+		result[i] = base[nbr % sizeofbase];
 		// decreese number to new calc 
-		nbr = (nbr / sezeofbase);
+		nbr = (nbr / sizeofbase);
 	}
 	return (result);
 }

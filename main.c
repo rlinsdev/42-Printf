@@ -80,7 +80,9 @@ int	main(void)
 	/***********%u**********/
 	/*int intUmax = 65535;
 	int returnUOM = printf("Orig: U-Int Max: %u\n", intUmax);
-	int returnUIM = ft_printf("Impl: U-Int Max: %u\n", intUmax);*/
+	int returnUIM = ft_printf("Impl: U-Int Max: %u\n", intUmax);
+	printf("%i\n", returnUOM);
+	printf("%i\n", returnUIM);*/
 	/***********%u**********/
 
 	return (0);
