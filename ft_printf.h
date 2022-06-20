@@ -10,6 +10,7 @@
 # define HEX_BASE_UPPER	"0123456789ABCDEF"
 # define DEC_BASE		"0123456789"
 # define STR_NULL		"(null)"
+# define PTR_NULL		"(nil)"
 # define INI_PTR		"0x"
 # define NEG_PTR		"FFFFFFFF"
 
