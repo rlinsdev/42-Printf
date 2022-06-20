@@ -24,6 +24,23 @@ int	main(void)
 {
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 	
+	/***********Try1**********/
+	// printf("%p\n", (void*)0);
+	// ft_printf("%p\n", (void*)0);
+
+	// char* str;
+	// str = "ai ai";
+
+	// printf("og | Pointer		->(%p)\n", str);
+	// ft_printf("42 | Pointer		->(%p)\n", str);
+	// printf("og | Pointer		->(%p)(%p)\n", 0, 0);
+	// ft_printf("42 | Pointer		->(%p)(%p)\n", 0, 0);
+	// printf("og | Pointer		->(%p)\n", 1);
+	// ft_printf("42 | Pointer		->(%p)\n", 1);
+	// printf("og | Pointer		->(%p)\n", -1);
+	// ft_printf("42 | Pointer		->(%p)\n", -1);
+		/***********Try1**********/
+
 	/***********%**********/
 	//ft_printf("%%"); // OK
 	/***********%**********/

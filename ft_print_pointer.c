@@ -18,6 +18,11 @@ int	ft_print_pointer(void* ptr)
 	char *str;
 	unsigned long	address; // must this type to pass in tests
 
+	if (!ptr)
+	{
+		bytes = ft_putstr(PTR_NULL);
+		return (bytes);
+	}
 	address = (unsigned long)ptr;
 	bytes = ft_putstr(INI_PTR); // Initialize of pointer
 	str = ft_itoa_base(address, HEX_BASE_LOWER);
